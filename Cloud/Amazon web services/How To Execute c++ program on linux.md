@@ -34,4 +34,4 @@ Step 8: Run the code
 	./code_1.cpp
 You will get output like this -
 ## Output:
- ![Image](img\output_1.png)
+ ![Image](img/output_1.png)
