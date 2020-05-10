@@ -13,7 +13,7 @@ Step 3: Exit from current mode
 Step 4: Write your code and save
 
 	:w
- ![Image](img\code_1.png)
+ ![Image](img/code_1.png)
 Security group
 
 Step 5: To come out of write mode
@@ -23,7 +23,7 @@ Step 5: To come out of write mode
 Step 6: You can also check your file content using following command
 
 	cat code_1.cpp
- ![Image](img\check_code.png)
+ ![Image](img/check_code.png)
 Security group
 
 Step 7: Compile and create executable file

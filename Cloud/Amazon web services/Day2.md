@@ -46,7 +46,7 @@ Inbound - Controls incoming traffic
 Outbound - Controls outgoing traffic
 These rules can be used for open/close port while remotely accessing the system.
 
-![Image](img\sec_group.png)
+![Image](img/sec_group.png)
 
 We can create different security groups and can manage ports.
 
