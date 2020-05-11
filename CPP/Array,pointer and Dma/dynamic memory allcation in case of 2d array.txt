@@ -1,0 +1,15 @@
+dynamic memory allcation in case of 2d array.
+
+a) if rows are not known
+
+		pointer to array is used.
+
+
+b) if cols are not known
+	
+		array of pointer is used.
+
+
+c) neither rows nor cols u know
+
+		double pointer is used.
