@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      
+
+        <style>
+            .grid-container {
+              display: grid;
+              grid-template-columns: auto auto auto;
+              grid-gap: 10px;
+              background-color: rgb(11, 184, 184);
+              padding: 10px;
+            }
+            .grid-container > div {
+  background-color: rgba(253, 247, 247, 0.8);
+  text-align: center;
+  align-content: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+            .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {font-size: 12px;}
+            </style>
+    
+    </head>
+
+      <body align="center">
+   
+                
+            
+<div class="grid-container">
+    <div>
+                    
+        <script src="jscode.js" ></script>
+        <h4>Heighest No : </h4>
+        <p id="demo"> </p>
+        <button type="button" class="button button2" onclick="heighest_no(5,7,9)" >heighest_no</button>
+    </div>
+
+    <div>
+        <h4>My_name : </h4>
+        <p id="name"> </p>
+        <button type="button" class="button button2" onclick="my_name()">My_name</button>
+
+    </div>
+       
+    <div>
+        <h4>dynamic name in all h format : </h4>
+        <p id="nam"> </p>
+        <button type="button" class="button button2" onclick="n()">Name</button>
+    </div>
+      
+</div>
+            
+    </body>
+
+
+    </html>
+
