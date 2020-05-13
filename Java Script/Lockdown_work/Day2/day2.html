@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      
+
+        <style>
+            .grid-container {
+              display: grid;
+              grid-template-columns: auto auto ;
+              grid-gap: 10px;
+              align-content: center;
+              background-color: rgb(11, 184, 184);
+              padding: 10px;
+            }
+            .grid-container > div {
+  background-color: rgba(253, 247, 247, 0.8);
+  text-align: center;
+  align-content: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+            .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {font-size: 12px;}
+            </style>
+    
+
+
+    </head>
+
+ <body align="center">
+   
+     
+            
+<div class="grid-container">
+    <!-- array highest no -->
+    <div>
+        
+            <p >Array : <span id="arr"></span></p>        
+        <p>highest no : <span id="high"></span></p>
+
+    </div>
+          
+<!--  print name  -->
+    <div>
+        <p>Click button to print My name : <span id="Name"></span></p>
+        <button type="button" onclick="My_name()"> My_name </button>
+
+    </div>
+       
+    <!-- Unhide name by clicking button  -->
+    <div>
+        <p>Click button to unhide name :</p>
+        <p id="n">Shriraj Thorat</p>
+        <button type="button" onclick="showElem()">Show Name</button>
+
+    </div>
+    <!-- Date and time (current)  -->
+<div>
+    <p id="demo"></p>
+    <button type="button" onclick="date()">Date_Time</button>
+
+</div>
+
+<!-- array ascending order  -->
+<div>
+    <p >Array : <span id="ar"></span></p>        
+    <p>Ascending order : <span id="asc"></span></p>
+</div>
+
+<!--  array descending order -->
+<div>
+    <p >Array : <span id="str"></span></p>        
+    <p>descending order : <span id="dsc"></span></p>
+</div>
+
+<!-- Genrate random no.  -->
+<div>
+    
+    <button type="button" onclick="random()">Genrate_Random_no</button>
+    <p id="ran"></p>
+</div>
+    
+<!-- Check @  -->
+    <div>
+        <p><span id="s"></span> : is @ present : </p>
+        <p id="c"></p>
+    </div>    
+
+    <!-- check mob no. digit  -->
+    <div>
+        <p id="q"></p>
+        <p id="l"></p>
+        <button type="button" onclick="check()" >check</button>
+    </div>
+
+    <!-- copy text from 1 textbox to 2nd  -->
+    <div>
+        <input type="text" id="first"/>
+        <input type="text" id="second" /><br\>
+        <button type="button" onclick="copy()" >Click to copy</button>
+    </div>
+    
+    <!-- Change font size  -->
+    <div>
+        <p><font size="4" id="a">Shriraj</font></p>
+        <button type="button" onclick="change_size()" >click to Change size</button>
+    </div>
+      
+</div> 
+
+
+
+<script src="day2.js"></script> 
+    </body>
+
+
+    </html>
+
