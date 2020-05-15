@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head> 
+   
+</head>
+<body>
+
+    Output is on console press f12 to open console
+    <script>
+        
+var a = (n) =>{
+     var fact=1;
+    while(n!=0)
+    {
+        fact=fact*n;
+        n--;
+    }
+    return fact;
+   
+}
+console.log(a(5));
+
+
+
+class Account {
+    name="";
+    balance=0;
+    constructor(name,balance)
+    {
+        this.name=name;
+        this.balance=balance;
+    }
+    deposite(amount)
+    {
+        this.balance=this.balance + amount;
+    }
+    display()
+    {
+        console.log(this.name + " amount after deposition is  " + this.balance);
+    }
+
+}
+
+obj1=new Account("ABC",5000);
+obj2=new Account("XYZ",2000);
+
+obj1.deposite(1000);
+obj2.deposite(1000);
+
+obj1.display();
+obj2.display();
+
+
+
+class Math
+{
+    static cube(n)
+    {
+        return n*n*n;
+    }
+    static square(n)
+    {
+        return n*n;
+    }
+}
+
+console.log(Math.cube(10));
+console.log(Math.square(10));
+
+
+class current_Account extends Account
+{
+    constructor(name,balance)
+    {
+        super('',0);
+        this.name=name;
+        this.balance=balance;
+     
+    }
+    withdraw(amount)
+    {
+        this.balance =this.balance-amount;
+        
+    }   
+    show()
+    {
+        console.log(this.name + " have balance amount is " + this.balance);
+    }
+}
+o1 =new current_Account('QWR',1000);
+o2=new current_Account('mnb',2000);
+
+o1.deposite(500);
+o2.deposite(500);
+o1.display();
+o2.display();
+
+o1.withdraw(100);
+o2.withdraw(100);
+
+o1.show();
+o2.show();
+
+    </script>
+    
+</body>
+</html>
