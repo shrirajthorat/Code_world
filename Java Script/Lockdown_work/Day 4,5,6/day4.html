@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1 align="center">Form validation</h1>
+        <style>
+            .b{
+                background-color: rgb(175, 158, 190);
+            }
+        </style>
+    </head>
+    <body>
+        <br>
+        <form method="POST" style="text-align: center;" action="#" onsubmit="return validateForm()">
+            <fieldset class="b" >
+                <br>
+                User Id :<input type="text"  id="fname" autofocus required>
+                <p id="name"></p><br>
+                Password : <input type="password" id="password" name="pname" required >
+               <p id="pass"></p><br>
+                Mobile No. : <input type="text" name="mname" id="mname"  required  >
+               <p id="mn"></p><br>
+                Address : <input type="text" name="aname" id="aname" required >
+                <p id="add" ></p><br>
+                Age : <input type="number" name="agname" min="18" max="100" id="agname" required>
+                <p id="age"></p><br>
+                <input type="submit" value="Submit">
+                <br> <br>
+            </fieldset>
+      
+    </form>
+    <script>
+
+        function validateForm()
+        {
+           var uid =document.getElementById("fname").value;
+           var pass=document.getElementById("password").value;
+           var mn=document.getElementById("mname").value;
+           var add=document.getElementById("aname").value;
+           var age=document.getElementById("agname").value;
+
+           
+            //user id not ull
+            if(uid == "")
+            {
+                document.getElementById("name").innerHTML = "User Id must not Empty !!! ";
+                return false;
+            }
+            //user id length
+            if((uid.length <=2) || (uid.length >=15))
+            {
+                document.getElementById("name").innerHTML = "User Id must be min 3 to max 15 char";
+                return false;
+            }
+            //user id char only
+            if(!isNaN(uid))
+            {
+                document.getElementById("name").innerHTML = "Only Char allowed";
+                return false;
+            }
+
+            //password is not null
+            if(pass == "")
+            {
+                document.getElementById("pass").innerHTML = "Password must not be null ";
+                return false;
+            }
+            //password length 8 char and more
+            if((pass.length < 9))
+            {
+                document.getElementById("pass").innerHTML = "password must be 8 char +";
+                return false;
+            }
+
+            //mobile no is not null
+            if(mn == "")
+            {
+                document.getElementById("mobile").innerHTML = "Enter Valid mobile Number";
+                return false;
+            }
+            //mobile no is number only
+            if(isNaN(mn))
+            {
+                document.getElementById("mn").innerHTML = "Enter Number Only";
+                return false;
+            }
+            //mobile number must be 10 digit long
+            if(mn.length != 10)
+            {
+                document.getElementById ("mn").innerHTML = "Mobile no must be 10 digit Number Only";
+                return false;
+            }
+
+            //address must not null.
+            if(add == "")
+            {
+                document.getElementById("add").innerHTML = "Address must not be Blank";
+                return false;
+            }
+            
+            //age must not null
+            if(age == "")
+            {
+                document.getElementById("age").innerHTML = "age must not Empty";
+                return false;
+            }
+            if (!age.checkValidity())
+            {
+                document.getElementById("age").innerHTML = "age must be between 18 to 100";
+                return false;
+            }
+        }
+    </script>
+    </body>
+</html>
