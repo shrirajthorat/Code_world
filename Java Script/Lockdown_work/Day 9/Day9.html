@@ -1,0 +1,32 @@
+<!Doctype html>
+<html>
+    <body>
+        <p>
+            Everything is on console
+        </p>
+        <script>
+            
+            (function (){
+                console.log("My name is Shriraj");
+
+            })();
+
+            (function (x){
+                console.log("Square of no. :" ,x * x);
+            })(5);
+            
+            function sum() 
+            {
+                var sum=0;
+                var i;
+                for(i=0;i<arguments.length;i++)
+                {
+                    sum+=arguments[i];
+                }
+                return sum;
+            }
+
+            console.log(sum(23,55,100,545));
+        </script>
+    </body>
+</html>
