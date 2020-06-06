@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+         
+         class Employee {
+             constructor(id,name,salary)
+             {
+                 this.id=id;
+                 this.name=name;
+                 this.salary=salary;
+             }
+             set setid(id)
+             {
+                 this.id=id;
+             }
+             set setname(name)
+             {
+                this.name=name;
+             }
+             set setsalary(salary)
+             {
+                 this.salary=salary;
+             }
+
+             get getid()
+             {
+                 return this.id;
+             }
+             get getname()
+             {
+                 return this.name;
+             }
+             get getsalary()
+             {
+                 return this.salary;
+             }
+             get getnetsalary()
+             {
+                 return this.net_salary;
+             }
+             calculation_nsalary()
+             {
+                let tds=0.1;
+                this.net_salary=this.salary - (tds * this.salary);
+             }
+         }
+
+         
+        ep1 = new Employee(1,"shree",90000);
+        ep2 = new Employee(2,"aj",25000);
+
+        ep1.calculation_nsalary();
+        console.log(ep1.getnetsalary);
+
+        ep2.calculation_nsalary();
+        console.log(ep2.getnetsalary);
+
+        //class student
+
+        class student{
+            set rolln(no)
+            {
+                this.no=no;
+            }
+            set name(n)
+            {
+                this._name=n;
+            }
+            set m1(m)
+            {
+                this._m1=m;
+            }
+            set m2(m)
+            {
+                this._m2=m;
+            }
+            set m3(m)
+            {
+                this._m3=m;
+            }
+            total()
+            {
+                
+                this.t=this._m1+this._m2+this._m3;
+            }
+            get totaal()
+            {
+                return this.t;
+            }
+            percentage()
+            {
+               this.per= (this.t/300)*100;
+            }
+            get percentag()
+            {
+                return this.per;
+            }
+    
+        }
+
+        ep1 = new student();
+        ep2 = new student();
+
+        ep1.rolln=1;
+        ep1.name="Shriraj";
+        ep1.m1=95;
+        ep1.m2=99;
+        ep1.m3=96;
+        ep1.total();
+        console.log("Total =" + ep1.totaal);
+        ep1.percentage();
+        console.log("percentage is "+ep1.percentag + "%");
+
+
+        ep2.rolln=2;
+        ep2.name="Vikas";
+        ep2.m1=66;
+        ep2.m2=73;
+        ep2.m3=56;
+        ep2.total();
+        console.log("Total =" +ep2.totaal);
+        ep2.percentage();
+        console.log("percentage is "+ep2.percentag + "%");
+
+
+
+        </script>
+    </body>
+</html>

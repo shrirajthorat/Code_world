@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+              $("#hide").click(function(){
+                $("img").hide();
+                $("#para").hide();
+             
+              });
+              $("#h1").mouseenter(function()
+                {
+                    $(this).css("background-color", "lightgray");
+                    
+                });
+                $("#t2").on("click", function(){
+                    $(this).css("color","blue");
+                });
+                $("#t1").blur(function(){
+                    $(this).css("background-color", "green");
+                });
+              $("#show").click(function(){
+                $("img").show();
+                $("#para").show();
+              });
+            });
+            </script>
+    
+    </head>
+    <body>
+        <img src="C:\Users\LENOVO\Desktop\Project\home page\Capture1.PNG">
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+<hr>
+        <p id="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora libero culpa officia quisquam obcaecati. Nemo odit eius, quis ipsa quos cumque nisi quo id commodi distinctio asperiores at minus laudantium.
+        </p>
+        <hr>
+
+        <h1 id="h1" style="color: blue;">Shriraj Krishnat Thorat</h1>
+        <hr>
+        <input id="t1"><hr>
+        <input id="t2">
+    </body>
+</html>

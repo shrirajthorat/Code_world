@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h3 id="nm" style="color: red;">My name is Shriraj</h3>
+        <button onclick="changecolor()">Click me to change color</button>
+        <br><hr>
+
+        <h1 id="align">My name is Shriraj</h1>
+        <button onclick="align()">Click to change alignment</button>
+        <br><hr>
+
+        <p id="p" style="background-color: blue;color: white;"  >Shriraj</p>
+        <button onclick="p()">Click me to change colo</button>
+        <br><hr>
+
+        <script>
+            function changecolor()
+            {
+                document.getElementById("nm").style.color="blue";
+            }
+            function alignment()
+            {
+                document.getElementById("align").style.alignSelf="right";
+            }
+            function p()
+            {
+                document.getElementById("p").style.color="blue";
+                document.getElementById("p").style.backgroundColor="white";
+            }
+            </script>
+
+            
+        Enter your name : <input type="text" id="c">
+        <p>Please select your color:</p>
+  blue : <input type="radio" id="b" onclick="c('blue')" name="color" value="ds"> &nbsp;&nbsp;&nbsp;&nbsp; 
+  
+  Red : <input type="radio" id="r" onclick="c('red')" name="color" value="d">&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+  Yellow : <input type="radio" id="y" onclick="c('yellow')" name="color" value="sdf">
+  <br><hr>
+  <script>    
+    function c(co)
+    {
+            document.getElementById("c").style.color=co;
+    }
+   
+    </script>
+      
+      <input type="text" id="txtbox" placeholder="Enter name here"><br><br>
+      <select id="fontsize">
+          <option value="12">1</option>
+          <option value="14">2</option>
+          <option value="16">3</option>
+          <option value="18">4</option>
+          <option value="20">5</option>
+          <option value="22">6</option>
+          <option value="24">7</option>
+          <option value="26">8</option>
+          <option value="28">9</option>
+          <option value="30">10</option>
+      </select><br><br><hr>
+
+      <script>
+        var fontsize = document.getElementById('fontsize');
+        fontsize.onchange = function () {
+            var txtbox = document.getElementById("txtbox")
+            txtbox.style.fontSize = this.value + "px";
+        };
+    </script>
+<br>
+<div style="margin: 0px auto;">
+    <input id="num1" placeholder="Enter 1st value"></br><br>
+    <input id="num2" placeholder="Enter 2nd value"></br>
+    </br></br>
+    <input type="radio" value="+" name="a" onclick="add()">Addition</input>
+    <input type="radio" value="-" name="a" onclick="sub()">Subtract</input>
+    </br></br><input id="answer" placeholder="Answer is . . .">
+  </div><br><br><hr>
+  <script>
+    function add() {
+        var num1, num2, res;
+        num1 = Number(document.getElementById("num1").value);
+        num2 = Number(document.getElementById("num2").value);
+        res = num1 + num2;
+        document.getElementById("answer").value = res;
+    }
+    function sub() {
+        var num1, num2, res;
+        num1 = Number(document.getElementById("num1").value);
+        num2 = Number(document.getElementById("num2").value);
+        res = num1 - num2;
+        document.getElementById("answer").value = res;
+    }
+</script>
+
+
+<p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt minima aperiam repellendus hic excepturi est delectus possimus modi placeat eaque, totam corrupti dolor eligendi! Exercitationem natus magnam esse adipisci quos.
+Nihil, est. Atque laborum quia ex a lafugit natus velit iusto quis eveniet quas eos ab tempore omnis rerum soluta minima quibusdam esse optio! Ullam quod quia labore mollitia repellat? Nihil.</p>
+
+<p  >Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vero vitae quia praesentium. Eaque itaque porro ratione praesentium omnis nostrum minima saepe, qui ipsam nam corrupti eos sint excepturi officiis.
+Culpa deleniti ut, adipisci error quaerat iusto sunt dolorem esse nam obcaecati id cumque natus pariatur sed quos! Alias quod eligendi repellendus hic architecto ea doloribus nulla veniam saepe magni!
+Eius consequuntur porro doloremque? Totam fde. Aliquam reiciendis debitis consectetur sint expedita sunt architecto quod vel enim velit! Sint quasi veritatis neque omnis iste magni rerum, voluptate doloremque!</p>
+   
+<p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, accusamus. Laudantium ipsum quod, amet rem tempore aperiam laboriosam voluptas quidem placeat quisquam rerum sequi magnam praesentium repudiandae architecto eos cum.
+Consequuntur, corporis quia. Accusantium, etio voluptatibus earum deleniti eveniet, doloribus quibusdam libero praesentium nobis assumenda corporis iusto officiis accusamus. Blanditiis repellendus fugiat porro neque placeat.</p>
+
+Count of tags : <p id="butt"></p>
+<button  onclick="count()">Count tags</button>
+<br><br><hr>
+
+<script>
+    function count()
+    {
+     var x=document.getElementsByTagName("p");
+var count=x.length;
+for(let i=0;i<count;i++)
+{
+    x[i].style.backgroundColor="blue";
+}
+document.getElementById("butt").innerHTML=count;
+    }
+
+</script>
+
+<ol>
+    <li>Shriraj</li>
+    <li>Sankeat</li>
+    <li>Vikas</li>
+</ol>
+<button onclick="remove()">Remove</button>
+<br><br><hr>
+<script>
+    function remove()
+    {
+       var rem= document.getElementsByTagName("li");
+       rem[0].remove();
+    }
+</script>
+
+<input id="n1" autofocus onchange="show(this.value)"><br>
+<span id="n2"></span>
+<br><br><hr>
+<script>
+    function show(bb)
+    {
+        if(bb==""||bb==null)
+        {
+            alert("Text box can not be empty");
+        }else{
+            document.getElementById("n2").innerHTML=bb;
+        }
+     
+    }
+</script>
+
+<input id="m1" autofocus onchange="sho(this.value)"><br>
+<span id="demo"></span>
+<br><br><hr>
+<script>
+    
+    function sho(val)
+    {
+        var str=document.getElementById("m1").value;
+        if (str.length < 8) {
+                document.getElementById("demo").innerHTML = "password length must be 8 char";
+                document.getElementById("demo").style.color = "red";
+                return ("too_short");
+            }
+            else if (str.search(/[0-9]/) == -1) {
+                document.getElementById("demo").innerHTML = "atleast one number required";
+                document.getElementById("demo").style.color = "red";
+                return ("please enter number");
+            }
+            else if (str.search(/[a-z]/) == -1) {
+                document.getElementById("demo").innerHTML = "atleast one small letter required";
+                document.getElementById("demo").style.color = "red";
+                return ("please enter small letter");
+            }
+            else if (str.search(/[A-Z]/) == -1) {
+                document.getElementById("demo").innerHTML = "atleast one CAPITAL letter required";
+                document.getElementById("demo").style.color = "red";
+                return ("please enter Capital letter");
+            }
+            else if (str.search(/[!\@\#\$\^\%\&\(\)\_\+\.\,\;\:]/) == -1) {
+                document.getElementById("demo").innerHTML = "atleast one Special char required";
+                document.getElementById("demo").style.color = "red";
+                return ("please enter one special char letter");
+            }
+            else {
+                document.getElementById("demo").innerHTML = "Password Accepted";
+                document.getElementById("demo").style.color = "green";
+                return ("OK");
+            }
+    }
+</script>
+
+<hr>
+<form action="#" method="post" class="demoForm" id="demoForm">
+  <fieldset>
+      <legend style="text-align: center; font-style: bold;">Book Shop</legend>
+
+      <h1>Tick The Box To Purches</h1>
+
+      <div id="books">Books:
+          <label><input type="checkbox" name="Fire Wing" value="250.0" /> Fire Wing</label>
+          <label><input type="checkbox" name="Harry Poter" value="100.50" /> Harry Poter</label>
+          <label><input type="checkbox" name="Geeta" value="300.60" /> Geeta</label>
+      </div>
+
+      <p>
+          <label>Total: ₹ <input type="text" name="total" value="0.00" readonly="readonly" /></label>
+      </p>
+  </fieldset>
+  <script>
+      function attachCheckboxHandlers() {
+          var el = document.getElementById('books');
+          var bks = el.getElementsByTagName('input');
+
+          for (var i = 0, len = bks.length; i < len; i++) {
+              if (bks[i].type === 'checkbox') {
+                  bks[i].onclick = updateTotal;
+              }
+          }
+      }
+
+      function updateTotal() {
+          var form = this.form;
+          var val = parseFloat(form.elements['total'].value);
+          
+          if (this.checked) {
+              val += parseFloat(this.value);
+          } else {
+              val -= parseFloat(this.value);
+          }
+
+          form.elements['total'].value = formatDecimal(val);
+      }
+
+      function formatDecimal(val, n) {
+          n = n || 2;
+          var str = "" + Math.round(parseFloat(val) * Math.pow(10, n));
+          while (str.length <= n) {
+              str = "0" + str;
+          }
+          var pt = str.length - n;
+          return str.slice(0, pt) + "." + str.slice(pt);
+      }
+
+      attachCheckboxHandlers();
+  </script>
+</body>
+
+</html>

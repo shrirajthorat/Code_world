@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <body onload="startTime()">
+        programme to display digital clock :<b><div id="txt"></div></b> 
+        <hr><br>
+        <script>
+            function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+        </script>
+
+<h2 id="hw"></h2>
+<hr><br>
+<script>
+    document.getElementById("hw").innerHTML="Width : "+screen.width + "   and Height is : " + screen.height;
+
+</script>
+
+
+<button type="button" onclick="n()" >click to open new window</button>
+<hr><br>
+<script>
+    function n()
+    {
+        window.open("https://www.india.com");
+    }
+</script>
+
+<input type="text" value="shriraj" name="name" id="t1" autofocus >
+<button onclick="create()">Createe cookie</button>
+<button onclick="read()" >Read cookie</button>
+<span id="p"></span>
+
+<script>
+    var v=document.getElementById("t1").value;
+function create()
+{
+    var cookieValue = escape(v);
+            //console.log(cookieValue);
+            document.cookie="name =" + cookieValue + ";";
+            document.getElementById("p").innerHTML=cookieValue;
+}
+function read()
+{
+  var x=document.cookie;
+    var allcookies = unescape(document.cookie);
+            //console.log(allcookies);
+            document.getElementById("p").innerHTML = "Cookie Data : " +x;
+}
+</script>
+    </body>
+</html>
