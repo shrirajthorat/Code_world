@@ -1,0 +1,13 @@
+class Shape{
+	private int height;
+	private int width;
+	
+}
+public class outside_class {
+
+	public static void main(String[] args) {
+		Shape s=new Shape()
+
+	}
+
+}
