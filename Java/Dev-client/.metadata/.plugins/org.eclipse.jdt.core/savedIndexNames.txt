@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\LENOVO\Desktop\Java classrome\Java programme\Dev-client\.metadata\.plugins\org.eclipse.jdt.core
+2331518480.index
