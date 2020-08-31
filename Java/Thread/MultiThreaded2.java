@@ -1,5 +1,5 @@
 
-public class MultiThreaded2 extends Thread {
+public class MultiThreaded2 implements Runnable {
 
 	public static void main(String[] args) {
 		MultiThreaded2 m1=new MultiThreaded2();
