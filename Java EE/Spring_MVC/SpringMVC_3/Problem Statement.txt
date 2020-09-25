@@ -1,0 +1,22 @@
+welcome page should be some url pattern which takes u to GetMapping of Controller.
+
+define an entity class "Dept" inside "mypack"
+	with
+	deptno int
+	dname	String
+	loc 	String
+
+Define a class "DeptController" with GetMapping and PostMapping
+from the GetMapping come inside "Dept.jsp"
+
+
+	Dept.jsp  -  
+
+		in jsp u need to have
+
+	Search By loc:-  <textfield>
+
+		<submit>
+
+user will enter "location" and click on submit. on submit control should go to PostMapping method of DeptController class which will retrieve matching records for the entered location with the help of DeptDAO.
+This method stores that list inside request attribute and forward the control to "Dept.jsp" which will display the list using EL.
