@@ -21,9 +21,7 @@ char pop()
 
 int priority(char c)
 {
-	if(c=='(')
-		return 4;
-	else if(c == '^') 
+	 if(c == '^') 
 		return 3; 
     else if(c == '*' || c == '/') 
 		return 2; 
@@ -65,16 +63,11 @@ int main()
 		{
 			while(tos!=-1 && priority(a[i])<=priority(s[tos]))
 			{
-				 if(s[tos] == '(') 
-				{ 
-					char c = pop(); 
-				}
-				 else
-				 { 
+				
 					char c = pop(); 
 					p+= c; 
-				 }
-            } 
+				 
+           		 } 
             push(a[i]);		
 		}
    }
