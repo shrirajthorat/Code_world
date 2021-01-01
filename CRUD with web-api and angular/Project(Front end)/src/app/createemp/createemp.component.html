@@ -1,0 +1,62 @@
+<p>
+    customerformfill works!
+    <button class="btn btn-primary">
+        Bootstrap Styled Button
+    </button>
+</p>
+<div>
+    <form [formGroup]="empForm" (ngSubmit)="onSubmit(empForm)" novalidate>
+     
+        <div>
+
+            <label>EmpId:</label>
+            <input type="text" name="code" formControlName="code">
+            <div *ngIf="code.invalid &&(code.touched || submitted)">
+              <label *ngIf="code.errors.required">The Customer should have code!</label>
+              
+            </div>
+          </div>
+
+        <div>
+            <label>Name:</label>
+            <input type="text" name="name" formControlName="name">
+            <div *ngIf="name.invalid &&(name.touched || submitted)">
+                <label *ngIf="name.errors.required">Name is required</label>
+            </div>
+        </div>
+        <div>
+            <label>Gender:{{genderarr}}</label>
+            <select name="gender" formControlName="gender">
+                <option>Select</option>
+                <option *ngFor='let g of genderarr'>{{g}}</option>
+
+            </select>
+            <div *ngIf="gender.invalid &&(gender.touched || submitted)">
+                <label *ngIf="gender.errors.required">Gender is required</label>
+            </div>
+        </div>
+        <div>
+            <label>annualSalary</label>
+            <input type="number" name="annualSalary" formControlName="annualSalary">
+            <div *ngIf="annualSalary.invalid &&(annualSalary.touched || submitted)">
+                <label *ngIf="annualSalary.errors.required">Salary is required.</label>
+            </div>
+        </div>
+
+        <div>
+            <label>DOB</label>
+            <input type="text" name="dateOfBirth" formControlName="dateOfBirth">
+            <div *ngIf="dateOfBirth.invalid &&(dateOfBirth.touched || submitted)">
+                <label *ngIf="dateOfBirth.errors.required">DOB is required.</label>
+            </div>
+        </div>
+
+
+
+        <div>
+            <button type="submit">Save</button>
+        </div>
+
+    </form>
+    {{empForm.value|json}}
+</div>

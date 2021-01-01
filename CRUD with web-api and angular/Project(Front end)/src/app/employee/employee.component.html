@@ -1,0 +1,14 @@
+<p>employee works!</p>
+
+<table *ngIf=employee>
+    <tr>
+        <td>{{employee.code}}</td>
+        <td>{{employee.name}}</td>
+
+        <td>{{employee.gender}}</td>
+        <td>{{employee.annualSalary}}</td>
+        <td>{{employee.dateOfBirth}}</td>
+    </tr>
+</table>
+
+<Button (click)="goback()"> "goback"</Button>

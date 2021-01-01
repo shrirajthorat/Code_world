@@ -1,0 +1,136 @@
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\MvcApplication1.dll
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\MvcApplication1.pdb
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\Antlr3.Runtime.dll
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\EntityFramework.dll
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\Microsoft.Web.Infrastructure.dll
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\Newtonsoft.Json.dll
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\System.Net.Http.Formatting.dll
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\System.Web.Helpers.dll
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\System.Web.Http.dll
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\System.Web.Http.WebHost.dll
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\System.Web.Mvc.dll
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\System.Web.Optimization.dll
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\System.Web.Providers.dll
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\System.Web.Razor.dll
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.Deployment.dll
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.dll
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.Razor.dll
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\WebGrease.dll
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\EntityFramework.xml
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\Newtonsoft.Json.xml
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\System.Net.Http.Formatting.xml
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\System.Web.Helpers.xml
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\System.Web.Http.xml
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\System.Web.Http.WebHost.xml
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\System.Web.Mvc.xml
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\System.Web.Razor.xml
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.xml
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.Deployment.xml
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.Razor.xml
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.dll
+D:\Training ADV_Aj2\18canActiveguard\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.pdb
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.dll
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\MvcApplication1.dll
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\MvcApplication1.pdb
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\Antlr3.Runtime.dll
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\EntityFramework.dll
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\Microsoft.Web.Infrastructure.dll
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\Newtonsoft.Json.dll
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Net.Http.Formatting.dll
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Cors.dll
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Helpers.dll
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Http.Cors.dll
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Http.dll
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Http.WebHost.dll
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Mvc.dll
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Optimization.dll
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Providers.dll
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Razor.dll
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.Deployment.dll
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.dll
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.Razor.dll
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\WebGrease.dll
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\Newtonsoft.Json.xml
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Net.Http.Formatting.xml
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Http.xml
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Http.Cors.xml
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Http.WebHost.xml
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\EntityFramework.xml
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Helpers.xml
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Mvc.xml
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Razor.xml
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.xml
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.Deployment.xml
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.Razor.xml
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.pdb
+D:\Training ADV_Aj2\webapi_Angular\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.csprojResolveAssemblyReference.cache
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\MvcApplication1.dll
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\MvcApplication1.pdb
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\Antlr3.Runtime.dll
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\EntityFramework.dll
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\Microsoft.Web.Infrastructure.dll
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\Newtonsoft.Json.dll
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Net.Http.Formatting.dll
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Cors.dll
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Helpers.dll
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Http.Cors.dll
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Http.dll
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Http.WebHost.dll
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Mvc.dll
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Optimization.dll
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Providers.dll
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Razor.dll
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.Deployment.dll
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.dll
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.Razor.dll
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\WebGrease.dll
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\Newtonsoft.Json.xml
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Net.Http.Formatting.xml
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Http.xml
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Http.Cors.xml
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Http.WebHost.xml
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\EntityFramework.xml
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Helpers.xml
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Mvc.xml
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.Razor.xml
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.xml
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.Deployment.xml
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.Razor.xml
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.csprojResolveAssemblyReference.cache
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.dll
+D:\Training ADV_Aj2\19cwebapi_Angular\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.pdb
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\MvcApplication1.dll
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\MvcApplication1.pdb
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\Antlr3.Runtime.dll
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\EntityFramework.dll
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\Microsoft.Web.Infrastructure.dll
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\Newtonsoft.Json.dll
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Net.Http.Formatting.dll
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.Cors.dll
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.Helpers.dll
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.Http.Cors.dll
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.Http.dll
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.Http.WebHost.dll
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.Mvc.dll
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.Optimization.dll
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.Providers.dll
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.Razor.dll
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.Deployment.dll
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.dll
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.Razor.dll
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\WebGrease.dll
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\Newtonsoft.Json.xml
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Net.Http.Formatting.xml
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.Http.xml
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.Http.Cors.xml
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.Http.WebHost.xml
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\EntityFramework.xml
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.Helpers.xml
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.Mvc.xml
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.Razor.xml
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.xml
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.Deployment.xml
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\bin\System.Web.WebPages.Razor.xml
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.csprojResolveAssemblyReference.cache
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.dll
+D:\MEAN\JS\13Day\project\MvcApplication1\MvcApplication1\obj\Debug\MvcApplication1.pdb

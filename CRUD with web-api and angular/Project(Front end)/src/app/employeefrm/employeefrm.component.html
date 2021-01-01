@@ -1,0 +1,42 @@
+<p>
+    employeefrm works!
+</p>
+
+<div *ngIf='employee!=null'>
+    {{employee|json}}
+    <pre>
+    <form #f=ngForm (ngSubmit)="update(f)">
+        <label>Id:</label>
+    <input type="text" required name="d" [(ngModel)]="employee.code" pattern="[0-9]{1,3}" #id=ngModel/>
+    <div *ngIf="id.invalid &&(id.touched || submitted)">
+      <label *ngIf="id.errors.required">The Customer should have code!</label>
+      <label *ngIf="id.errors.pattern">The Customer should have  1 0r 3 digit code code!</label>
+      <label *ngIf="id.control.hasError('pattern')">The Customer should have  1 0r 3 digit code code!</label>
+    </div>
+    <label>Name:</label>
+    <input type="text" required name="name" [(ngModel)]="employee.name" pattern="[A-Za-z]{3,15}" #name=ngModel/>
+    <div *ngIf="name.invalid &&(name.touched || submitted)">
+          <label *ngIf="name.errors.required">The Customer should have name!</label>
+          <label *ngIf="name.errors.pattern">The Customer should have namelength 3-15 char!</label>
+        </div>
+    
+    <label>Gender:</label>
+    <select name="gender" required #gender=ngModel [(ngModel)]="employee.gender" required>
+       <option *ngFor='let gen of Gender' [selected]="employee.gender" [value]='gen'>{{gen}}</option>
+      </select>
+    
+    <label>AnnualSalary</label>
+    <input type="number"  required name="annualSalary" [(ngModel)]="employee.annualSalary"  #annualSalary=ngModel/>
+    <div *ngIf="annualSalary.invalid &&(annualSalary.touched || submitted)">
+      <label *ngIf="annualSalary.errors.required">Salary is required.</label>
+        </div>
+    <label>DoB</label>
+    <input type="text"  required name="dateOfBirth" [(ngModel)]="employee.dateOfBirth" #dateOfBirth=ngModel/>
+    <div *ngIf="dateOfBirth.invalid &&(dateOfBirth.touched || submitted)">
+      <label *ngIf="dateOfBirth.errors.required">DOB is required.</label>
+    </div>  
+    <button type="submit">go</button>
+  
+    </form>
+    </pre>
+</div>

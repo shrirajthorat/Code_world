@@ -1,0 +1,44 @@
+<p>employeelist works!</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Code</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Annual Salary</th>
+            <th>Date of Birth</th>
+            <th>Detail</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+
+    <tbody *ngIf='employees'>
+
+
+        <tr *ngFor="let employee of employees">
+            <td>{{employee.code}}</td>
+            <td>{{employee.name}}</td>
+            <td>{{employee.gender}}</td>
+            <td>{{employee.annualSalary | currency:'USD'}}</td>
+            <td>{{employee.dateOfBirth }}</td>
+            <td> <a [routerLink]="['/employeeone',employee.code]">
+                    Detail
+                </a></td>
+            <td> <a [routerLink]="['/employeefrm',employee.code]">
+                    Edit
+                </a></td>
+            <td>
+                <a [routerLink]="['/deletechkemp',employee.code]">Delete</a>
+            </td>
+        </tr>
+
+        <tr *ngIf="!employees || employees.length==0">
+            <td colspan="5">
+                No employees to display
+            </td>
+        </tr>
+    </tbody>
+</table>
+
