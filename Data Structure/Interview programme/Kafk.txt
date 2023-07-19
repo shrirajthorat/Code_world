@@ -1,0 +1,11 @@
+producer
+Consumer
+Kafka cluster - 
+	Topic - we create topic inside kafka broker so that consumer can subscribe to that topic.It categories the data
+		kafka partition - comes under topic to save large data onto multiple computer
+		offset - sequence of ids given to messages like array eg. 0,1,2..
+	Zookeeper - manages the state of all kafka brokers
+	kafka broker - also known as kafka server. producer and consumer use this broker to communicate
+	
+	
+Git - https://github.com/RameshMF/springboot-kafka-course/tree/main/springboot-kafka-real-world-project
