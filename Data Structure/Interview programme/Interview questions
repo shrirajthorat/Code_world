@@ -1,0 +1,1023 @@
+Sumer Chandurkar - L1 - 19/05/2023
+
+Introduction
+OOPs concept
+Equals and hashcode
+How overriding work internally?
+Requestparam vs pathvariable.
+Springboot annotations.
+Overloading vs overriding
+How to override static method in java?
+How garbage collection works internally in Java?
+Map vs flatmap
+UNION vs UNION ALL 
+Collections you worked on.
+Design Patterns.
+Program :- [2,4,3,-14,-10] List the pairs of numbers whose sum will be 7.
+Class A{ A a = new A()}; what is the output?
+class A {}
+class B extends A {}
+class C extends B {}
+            C c = new C();
+            What will Happen?
+
+Naman Saraswat - L1 - 11/Nov/2022
+
+Introduction
+Which kind of projects do you work on?
+Java 8 features
+How to create rest api from end to end?
+How to create a login api?
+How to secure login api?
+How to add role based authentication in login api?
+Internal working of ArrayList? How does it allocate memory internally?
+If there is a default and abstract method present in an interface, what that interface is called?
+Current Location
+
+Naman Saraswat - L2 - 16/Nov/2022
+
+Introduction
+how are you going to create a api tell all steps in detail
+Our application or api have performance issues. Tell what steps you take to find it and how you will try to fix it?
+When will we use mysql and mongodb? Tell the scenario.
+What is the difficult task you have done till now and what challenges have you faced to cClass A {
+
+Default constructor ;
+ A(int A, int B){
+
+sout(“int”)
+}
+               A(int A, float B) {
+
+            sout(“float”)
+            }
+
+}
+
+Main{
+
+
+ Int a = 10;
+Byte b = 16;
+A = new A(a,b);
+
+}
+
+Which constructor it will call and why?
+omplete it?
+If you are working on an issue/task- after debugging and after taking all necessary steps you are not able to solve it and neither your team members are helping you, it needs to be delivered asap. What will you do
+
+Naman Saraswat - L1 - 01/Feb/2023
+
+Introduction
+Java 8 features
+Lambda function definition and how to use it?
+
+main{}{
+
+
+for( int i = 0; 0 ; i++) {
+
+sout(", " + i);
+
+}
+
+for( int i = 0; ; i++) {
+
+sout(", " + i);
+
+}
+}
+Explain and print output
+
+
+Scenarios in which we can use ArrayList and its advantages.
+When to use Linkedlist in place of arraylist?
+An employeeList is there which has id and name and other variables , need to extract a list of employee names using Stream api?
+Write a sql query  to extract employee count based on the project name and sort as well.
+How to create an immutable class?
+Tell all the spring boot annotations you have used?
+Advantage of springBoot over spring.
+Explain how to use @Valid annotation.
+Explain usage of @Autowired 
+How you will create an api that will interact with db . Explain flow.
+Differentiate between api and microservice.
+Explain exceptions and types.
+Tell different scope of beans?
+
+Naman Saraswat - L2 - 02/Feb/2023
+
+Introduction
+What is an API gateway and how does it work?
+What is steam api and explain different types of operations.
+How to configure api gateway using kubernetes.
+How to configure api gateway generally.
+What is a hystrix circuit breaker? Explain its usage and working.
+Do you know Docker common vulnerabilities?
+
+Naman Saraswat - L3 - 08/Feb/2023
+
+Explain about your recent project.
+Print all the substrings of a string str = “abcd”;
+Input string = “addccvg” o/p string = “accddgv”, sort the string
+There is a list of Employees that has salary field ,find second highest salary using java8 features 
+Difference between Collection and Stream 
+Advantages of stream and its working
+Difference between Primitive data type and Object Data type, advantages, difference and why we still use primitive data type?
+Tell different spring boot modules
+Difference between @Autowired and @Bean
+How to do CICD deployment
+Do you know docker
+Do you know AWS
+Libraries for logging
+difference between Log4j and slf4j?
+
+
+
+Ankita Acharekar L1A ( 30/01/23 ) :
+
+
+What is Spring Security? How you will apply it on the Spring project.
+Authentication in springboot - OAuth , JWT , SAML 
+Difference between SAML and Oauth
+When to use JWT etc authentications example
+How to call an api from another api
+AWS Ec2 purpose
+S3 configurations in java & best practices
+Code format to upload file to S3
+Which is the latest version of java
+Java 8 features
+Relation between functional interface and lambda expressions - real world example
+Stream api in java 8
+What are microservices
+CI/CD pipelines - full form , workflow
+
+
+Ankita Acharekar L1B (01/02/23) :
+
+Screen share and write a code on IDE:
+To accept employee id and return object
+Exception handling on it - Globally & specific
+How to exclude a class from it
+Configure Spring security
+
+Flatmap in java 8
+Write a program to find third largest number in an arraylist using stream api
+
+
+Ankita Acharekar L1  (08/02/23) :
+
+Introduction
+Projects worked on , your role, TechStack used.
+Java 8 features
+Functional Interfaces in detail , where to use
+@Component and @ComponentScan difference and uses
+Which collection will be used to maintain insertion order without duplicate values?
+Which collection will be used to store key-value pair Alphabetically
+@bean annotation
+Bean vs Component difference
+Autowiring Interfaces and calling child class methods scenario.
+REST HTTP Methods - PUT & POST difference // PUT & PATCH difference
+How to securely store user passwords into database without compromising.
+Steps to deploy your application.
+Jenkins pipeline steps
+What is docker & its uses
+Languages supported by AWS Lambda functions
+Features of Dynamodb & difference between Dynamodb vs Mongodb
+Write a java program to find the third most repeated word from a text file
+How to write Mockito - Junit test cases.
+
+Ankita Acharekar L2 (17/04/23) :
+
+Introduction
+Brief about the project worked on
+Libraries used in java project
+Web services used
+MQ in java
+Tibco workflow
+REST call in java
+Current location & Company
+
+
+
+
+
+Ankita Acharekar L2 (18/04/23) :
+
+Introduction
+Questions on AWS - Resource based policies for Lambda
+Configuration for lambda-Get function
+How to pull data from an api using lambda
+How does lambda function gets triggered
+Dynamodb concepts
+Security groups in aws . How do two ec2 instances connect with each other?
+Microservices in java
+Design patterns in java & how u used them in your project.
+Amazon EKS microservice
+Docker and difference between docker & VM (virtual machine).
+Exception Handling in java
+Asynchronous api calls in java
+How to get quick response while using async
+Factory Method Pattern , Singleton design pattern
+Write the following code : 
+https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/practice-problems/algorithm/bubble-sort-problem/ 
+
+
+Komal Malhotra L1- 8 FEB 2023
+Introduction
+OOPs Conceptions with example and explanation
+Types of Polymorphism and explaining its types.
+What are actuators
+Have you seen config file within your current project.
+What are the best option from collections if you want to frequently want to access any element?
+What are the best option from collections if you want to frequently want to delete or add any element?
+Different between array list and linkedlist?
+Stream api.. Write a program to show example
+Syntax for lambda expression
+WAP to filter the even numbers and multiplying the result with 2 and storing that into a list again
+WAP to convert the list of strings into lowercase and then store in a list with comma separated
+Java 8 features
+Functional interface. Create a thread using functional interface
+Terminal stream api functions
+AWS services used. 
+Exception handling in springboot. How we handle?
+Difference between SOAP and REST
+@SpringbootApplication annotation. Its significance
+Difference between @RestController and @Controller
+Most difficult problem I have faced and solved till now.
+
+
+Rashi Shukla
+
+Brief introduction.
+Walk through the projects.
+Output of the following
+Integer i = new Integer(12);
+Integer j = new Integer(12);
+Integer k = new Integer(500);
+Integer l = new Integer(500);
+
+Output of the following
+            System.out.println(10 + 20 + "Hi");
+System.out.println("Hi" + 10 + 20);
+
+Choose the correct option if you want to store data in key value/pair, want no duplicates and in a sorted manner. Options - >  tree/set/list/map/sortedmap/unsortedmap
+
+WAP to reverse a string.
+What is a spring pool in java?
+What is a singleton class ? Where do we use it?
+Write the url for a rest call which retrieves resources based on the user.
+Write on the IDE the Rest method for above. 
+Difference between @Controller and @Restcontroller.
+How will you make spring boot from scratch?
+What versioning tool do you use?
+Have you worked on junits? What are the features of mockito?
+What is microservice architecture?
+Tell its disadvantages.
+What is autoconfiguration? How can you exclude it?
+What is the use of @SpringBootApplication?
+Explain features of java8.
+What is optional? What are its advantages?
+What will you do once you are assigned a ticket?
+ Do you go through any tech magazines or blogs for extra reading?
+Total years of experience.
+
+Rohit Prajapati
+
+Brief Introduction
+Discussion on a previous project.
+How will create a spring application for web services
+Difference between soap and rest api.
+Handling body data from post requests.
+How to create a view in sql.
+Override and overload related questions 
+Difference between abstract class and interface and questions on that
+Have you done troubleshooting in your project? Tell the issue and process how you did it.
+How will you deploy your rest web application?
+Testing framework that you have worked with.
+IDE’s that you used and Tools for testing api.
+Tool you have used to maintain the code base.
+Git pull and push commands.
+Education Background.
+Current location.
+
+
+
+Q1 About Project
+Q2 MySQL joins
+Q3 Spring major annotations and explanations.
+Q4 Can we remove @Service annotation and use the service layer.
+Q5 Bad practices in the Service layer.
+Q6 maven commands and goals.
+Q7 Memory Leak.
+
+
+
+
+Using local IDE create a Rest api using below data
+
+		User - Id,roleId,name,username,password
+                        Role- Id, role
+
+    Write all the possible api you can make using this table structure? Write in a                     proper  optimised way.
+
+Apply multithreading on the same spring example. What is the main poins which you will take care in this?
+
+What is Spring Security? How you will apply it on the Spring project.
+
+What is JWT? Apply it to this current example right now?
+
+What does JWT consist of? Explain in detail each part? 
+How does it work? How does JWT token looks like?
+
+
+
+MOM FOR PERSISTENT L1(Rishi Dwivedi)
+
+Brief Introduction .
+Explain Immutability in Java.
+How can we create an Immutable class in java .
+What are the major features you have developed in you project?
+What are the major collections you have worked with.
+Have you worked with Docker.
+Do you know Kafka.
+Have you worked with rest api.
+Explain about Dao ,Service and Rest layers.
+How do you configure connection with DB in spring boot
+How do you create a class into a table in Springboot.
+Explain about JPA annotations.
+How do you handle exceptions.
+Explain About Synchoronised and concurrent hashmap.
+What classes and interfaces do you use while working with file system.
+Which spring security feature have you worked with and Explain.
+Have you worked with java 8 feature.
+Name some java 8 features and explian how do you use them .
+
+
+Anushka Kesarwani - L1A (08/02/23)
+
+Introduction
+Years of experience
+Steps to configure database with spring boot
+What is repository in spring boot?
+What is ORM?
+What is datasource?
+Sort the name of employees in list using stream api
+Given an integer array nums, find the subarray with the largest sum, and return its sum.
+Recent work that I had done on a project.
+
+
+
+
+
+
+
+Abhishek Hande - 08 Feb 2023
+1.Introduction
+2.Advantages and disadvantages between monolith and microservices 
+3.use of actuators 
+4.Difference between controller and restcontroller
+5. What is the use of @springbootapplication
+6.Can we override default auto-configuration and how will you do that
+7. Tell known spring boot annotations and its use
+8.explain types of beans in spring boot container 
+9.How to handle transaction in springboot 
+10. How to call existing stored procedure in java application
+How we can check logs of different different microservices inside the containers
+Explain the deployment steps used  in previous project
+Have you worked on CI/CD
+Explain java 8 features
+What are the functional interfaces and list them 
+What is method reference 
+Given a list of employees,list  find the 2nd highest salaried employee
+Difference between concurrent hashmap and synchronised hashmap, which collection do you use if we want the insertion order to be maintained.
+
+
+Harish Ingole - L1A -08 Feb 2023
+
+Introduction
+Find emp name using stream
+What are feature of Java 8
+WAP program to find occurrence of String
+Write a program to find a pair of sum of given number
+What is multithreading, Threadpool
+Design pattern and its types
+Write a Rest call 
+What is the difference between callable and future 
+What are types of EC2 Instance
+What is executors framework 
+What is synchronisation
+What is @Qualifier
+Write a sql query to find out highest and second highest sal
+What are the annotation in Spring boot and explain
+
+
+Anushka Solanki L1- 09/02/2023 interviewer- 
+Introduction
+OOPs Concept with example
+Coupling & Cohesion
+Different ways to declare string. Where are string abc =”ghg” & string abc = new String() stored in memory?
+Where can static keyword be used?  Where is static variable stored & when is it instantiated.
+Controller vs RestController
+Flow of Rest api in your project. Project structure
+Collection hierarchy. Where to use ArrayList, Linkedlist, Hashset
+HashMap vs Concurrent hashmap vs Synchronized Hashmap
+Internal working of hashmap.
+Spring vs Springboot
+Monolithic vs microservies, adv & disadvantages
+Actuators & its implementation.
+Log4j vs slf4j. Vulnerabilities of both
+Program to count occurrences of each word in string
+Tell few Predefined functional interfaces
+Find unique & duplicate values in arraylist using stream
+Springboot annotations- @Qualifier @Entity @repository @transaction
+How is @ transaction configured
+Can i use different server other than the embedded tomcat server? How? What port is used by embedded tomcat? How can post be changed?
+AWS services used in recent project
+CICD flow in previous project
+
+
+Shivshankar Patel - L1 - 22/Feb/2023
+
+1.Brief Introduction.
+2.Project details.Oops concepts
+3.Java 8 features.explain
+4.Diff log 4j vs slf4j.
+5.Diff between Collection vs Streams.
+6.WAP to create substring combination from String.
+7.WAP to find 2nd paid Employee based on salary.
+8.WAP to find if elements are unique or not.
+9.WAP to sort input string by ASCII value. Repeat characters if any
+10.can you optimise.
+
+
+
+
+
+
+
+
+
+
+Shivshankar Patel  L2 - 2/03/2023
+
+1.Brief introduction.
+2.Project architecture.
+3.Dependency injection in spring boot 
+4.@bean annotation.
+5.ApplicationContext and Beanfactory.
+6.Dispatcher servlet.can we use dispatcher servlet without spring boot?
+7.How can we count how many times our API’s are getting called.
+8.ServletConfig and Servletcontext
+9.How can we have multiple datasource.
+10.How to migrate  DB.hibernate to ibatis
+11.How will you find duplicate entries in a database.
+12.Given input String input = “abbbccccddddeeeefffvvvaaa”
+Find the occurrence of each character like a=5,b=3..
+If it is once print the character or print the count.
+13.Security in your project / Authentication, oauth/oauth2.
+14.Exception handling question.
+15.Handlers in spring boot.
+16.spring-aop.@befor                                                                                                                                                                                                    e @after @advice
+17.CreateCriteria and queryInterfaces difference.
+18.question on hashmap and sorting mechanism
+19.final vs finally vs finalize.
+
+
+Swati-Jevoor L1:
+Insert 10 between 8 and 11 in linked list given: 3->5->7->8->11->13
+String Reversal without using extra space
+How to create final class
+Internal working of concurrent hashmap
+Internal Working of linked list
+Design pattern abstract factory pattern implementation
+Implement private class
+what is treemap? Internal working / how it gives result in ascending?
+Monolith vs microservice
+why separate db for microservice? why cant they have 1 db
+connection between microservices
+ci/cd pipeline 
+how to make a class immutable
+
+Swati-Jevoor L2:
+Tough task done in your career
+Aws services used in project
+Why want to join SLB?
+How will you upskill if joined
+
+
+Deepak_Kumar L1:
+1.
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1]
+After solving calculate the time complexity, my time complexity was bigO(n2), So he asked me to reduce it further.
+2. Polymorphism concepts in detail and the practical use
+3. Concurrency v/s parallelism in multithreading
+4. Indexing in MySql
+5. Partitioning in mysql
+6. Detailed project overview
+7. Most challenging thing you have done in your project
+8. Abstract class vs Interface
+9. Can we use abstract class in place of interface or vice-versa
+10. Explain the above question 9 when we can use what?
+11. What is synchronization of threads.
+12. Given a list of employee and I had to find all the employee named “Mayank” whose age is smaller than 30 using Java8
+13. Given a String “RAMANA” and had to find the occurrences of the letters : Like R->1, A-> 3 and so on.
+
+
+
+
+
+Nikhil Gade L1 (12/04/23) - 
+
+1) Introduction
+2) Explain about project and technology you're worked on
+3) Explain OOPS concepts with examples & Java features 
+4) what happens to string literal object when we assign it to null, is it garbage collected?
+5) why string is immutable in java?
+6) create singleton class on notepad
+7) create a thread using lambda expression on notepad
+8) Some coding questions on Stream API & String manipulation
+9) what is default scope of bean in spring boot
+10) which is better way to create thread 
+11) if there is a version issue of dependency or we want to change the version, how to do it ?
+12) Tell all the spring boot annotations you have used & Explain?
+13) Multiple questions on Collection and Hashmap
+14) Explain Exception Handling
+15) Questions on multithreading
+
+
+
+
+
+Sumer Chandurkar L1  - 
+
+Introduction
+Have you worked on any migration project before?
+Any idea about migration?
+Explain Springboot Annotations.
+Which design pattern you have used in microservices?
+
+
+
+Ankita Acharekar L3 ( 13/06/23 ) :
+
+Introduction
+Java program to reverse a string till n characters and throw Custom Exception if n exceeds the length of given string.
+
+Example : String = “Hello”  , int n = 3
+Expected Output : “leHlo”
+
+Throw Custom Exception if n > string.length();
+
+Explain Collections and Stream in java
+What is Exception handling and its types
+Write a code for default Functional interfaces in java
+Explain the types of default Functional interfaces
+
+
+
+Deepak Kumar - L1 - 01/07/2023
+Interviewer(Sagarsing Rajput)
+Detailed explanation of project and technology used.
+What happens to partition when one consumer is failed to read the entire message of a particular partition.
+Can we provide the retry option in case of failed consumer.
+Kafka configuration like from starting the server to creating the consumer group and topic
+What is offset?
+If one topic is failed that is having some partition which contains some message then what will happen?
+Who maintains the status in kafka? And what other things it does?
+How many ways we can deploy the application in AWS? Explain all
+What is Lambda and can we add jar file inside it?
+All the AWS services you have used in your project
+Tell me about the ECS and Farget and how ECS is different from EC2
+Process involved in CI/CD
+What is the use of SonarQube and how to build the pipeline
+He asked me to write the logic of update operation in springboot like all the steps from entity to service. And create the json object
+@Primary annotation
+What is NoSql data base name some
+What is indexing in mysql and write the syntax of it
+What is completable future and @Async annotation
+What is the Principle behind NoSql database follows and Sql database
+Write a java code to find the occurrence of character
+What is failfast and failsafe with example. Can a single thread perform the read and write operations in case of concurrent hashmap?
+What are the docker command you have used and what is the difference between CMD and EntryPoint in dockerfile.
+Annotations you have used in unit testing
+Why we use @Mock
+Can we configure the email service in sonarQube to send the mail to the developers if build failed
+
+Moiz Husain Bohra - L1 - 25/04/2023
+Interviewer : Rishabh Gupta
+
+1. Conditional Bean
+2. Kafka Partition
+3. How I can send a notification to all Android, ios  devices and webservers at a time 
+4. What is Consumer Group
+5. Find all the key of Course_1 using Java - 8
+	 System.out.println("Company");
+        List<Map<String, String>> collData = new ArrayList<>();
+        // Map of student and course name
+        Map<String, String> stuMap = new HashMap<String, String>();
+
+        //Add map 1
+        stuMap.put("S1", "Course_1");
+        stuMap.put("S2", "Course_2");
+        stuMap.put("S3", "Course_1");
+        stuMap.put("S4", "Course_2");
+        stuMap.put("S5", "Course_1");
+        stuMap.put(null, "College_A");
+        collData.add(stuMap);
+
+
+        //Add map 2
+        stuMap = new HashMap<String, String>();
+        stuMap.put("Q1", "Course_1");
+        stuMap.put("Q2", "Course_2");
+        stuMap.put("Q3", "Course_1");
+        stuMap.put("Q4", "Course_2");
+        stuMap.put("Q5", "Course_1");
+        stuMap.put(null, "College_B");
+        collData.add(stuMap);
+        // Find all those student/course pairs where Course=Course1
+
+
+
+Umair Husain - L1 - 08/05/2023
+
+MOM | StatusNeo
+
+1) Very large number of entries (upto billion), you have the following list of operations:
+a) Searching 
+b) addition/deletion 
+c) sorting
+
+which data structure will you use for each operation and what will be the time complexity of the same 
+
+2) Given 2 unsorted arrays. Merge them and sort them. Write the optimized solution with least time and space complexity
+
+3) Questions related to current project, functionality, approach of solving problems etc 
+
+
+
+
+Komal Malhotra - L1 - 25/04/2023
+
+
+
+
+
+
+
+
+
+1) Briefly explain all the tech stacks and the projects you have worked on and overall experience you have till now?
+2) Monolithic and microservices .. general difference and which one we use ? Which one did I work on?
+3) Design patterns which I have worked on?
+4) Custom Annotations , if i know?
+5) Enums 
+
+
+Ashish Siwal - L1 - 01/06/2023
+Briefly explain all the tech stacks and the projects you have worked on and overall experience you have till now?
+What are all the OOPS principles?
+Applications of Inheritance and Polymorphism
+Usage of Abstract class and interface, difference between them and a lot of in-depth cross questions and 1 design problem using abstract class and interface.
+Design Patterns you have used and what’s singleton design pattern and their usage?
+How to handle exceptions in java and how to create custom exceptions in java?
+Java 8 features
+What are the differences between lambda expression and Anonymous class?
+Open IDE and implement an Anonymous class and create a lambda expression for a functional interface and call its method using lambda expression
+What is the functional interface, why were they introduced? Some pre-defined functional interfaces.
+What is functional programming and its benefits?
+What is spring boot and difference between spring core and spring boot?
+Why was the spring framework created, what are its core principles?
+What’s IOC and DI, then in-depth cross questioning.
+How to create a bean? What are the various annotations used for that?
+Difference between PUT and POST request?
+Difference between path and query parameters?
+Different types of DB you have used?
+What is the architecture of kafka?
+What is the zookeeper and how does it work?
+What is a kafka partition?
+Explain the flow of kafka from publisher to subscriber?
+What is microservice?
+What’s the architecture of microservice? How do they communicate with each other?
+What’s orchestration in microservice?
+
+
+Naman Saraswat - L1 - 02/06/2023
+Interviewer: Saurabh
+Difference between PUT and POST request?
+What are all the OOPS principles? Cross questioning on examples
+What’s IOC and DI, then in-depth cross questioning
+Find 2nd largest number in arraylist using Java 8 features and without them.
+What is runtime polymorphism ? Explain by creating a sample code.
+Scenario based question on parent - child relationship of overriding a method will work or not
+Usage of Abstract class and interface, difference between them and a lot of in-depth cross questions and 1 design problem using abstract class and interface.
+In which scenario to use abstract class and interface give examples
+Can we use local variable / instance variable and static variables defined in a class inside a static method?If yes/no , explain the reason.
+What is the architecture of kafka?
+How Kafka works end to end flow.
+Difference between path and query parameters?
+Different ways of injection a bean
+
+
+
+
+Nikhil Gade - L1 - 23/05/2023
+Interviewer - Ankesh Mishra
+
+Introduction & recent project details
+Java 8 features
+Why did Java introduce the Stream API?
+Why does java introduce default methods?
+Internal working of hashmap?
+Why is the red black tree used in a hashmap?
+What is the time complexity for searching operations in Red-Black tree?
+Design patterns - Singleton design pattern
+Explain steps to create singleton class
+What design patterns did you use for microservices ?
+Which cloud alarms systems have you used in your project?
+Why does Java need immutable classes? 
+Have you used any multithreaded frameworks?
+What types of thread pools are created using executors?
+Explain spring autowiring? What happens internally when we use autowiring?
+Multiple questions on spring boot
+What is the default scope of bean?
+difference between Rest and ActiveMQ?
+What is an API Gateway?
+Abstract class vs Interface? 
+
+
+
+
+
+
+
+Shivshankar Bharat Patel - L1 - 23/05/2023
+
+1. Brief introduction 
+2.Project Description & architecture
+3.AWS services
+4.Spring security 
+5. Collection, how they are different from streams and Arrays
+6.Array and arraylist difference
+7.java 8 features
+8.find if given number is prime or not , Optimal solution. - Math.sqrt()
+
+
+
+
+
+
+
+
+
+Sumer Chandurkar - L1 - 24/05/2023
+
+Introduction
+Java 8 features
+Intermediate vs Terminal operations
+Count method
+Stream APIs 
+findFirst and findAny
+Why Optional Class is used.
+Why stream API used? What is the purpose?
+What is the thread Safe in java? - Completaable feature API (Java 7)
+REST API
+Design Patterns in java
+Steps to convert a program to singleton
+Java Lambda Expression.
+Springboot annotations
+@controller vs @RESTController 
+@Responsebody @Requestbody
+@Autowired 
+What is Spring actuator?
+Bean and bean Scopes
+What is prototype?
+How many Hibernate Object states ? Explain Transient and persistent.
+Find the second highest salary using java 8.
+
+
+
+Ayush Srivastava - L1 - 24/05/2023(Interviewer - Ankesh Mishra)
+1. Introduction
+2.Describe about Collections
+3.difference between ArrayList and LinkedList
+4.Internal working of Hashmap - A HashMap in Java internally uses an array of linked lists (buckets) and a hash function to store and retrieve key-value pairs efficiently.
+5.Difference between Linked HashMap and Tree HashMap
+6.Java 8 Features
+7. Functional Interface
+8.Default and Static Function
+9.Use of Java Stream API
+10.Difference between Stream and Loop
+11.Explain singleton class and its uses
+12. Explain Microservices Framework
+13.Difference between Spring and Spring Boot
+14.@controller vs @restcontroller 
+
+
+
+Harish Ingole -L1 - 24/05/2023 
+Interviewer Name : ANKESH MISHRA
+
+Which one is better for Insertion and Deletion of arraylist and linkedList
+What is the time complexity of insertion and deletion of linkedlist and arraylist
+What is the difference between Hashset and LinkedHashSet
+What is the underline DS of Hashset
+How many collections have you worked on
+Java 8 feature
+What is functional interface and tell me what are functional interfaces in java 8 
+Give me the situation where we can use predicate, function, supplier and consumer
+Why do you use stream over for loop and advantages and disadvantages
+What is garbage collection and internal working of garbage collection
+Tell me about diamond problem and how to resolve it
+What is the need of default and static method in interface
+Interview link recording link :- Interview Recording
+
+Deepak Kumar - L1 - 24/05/2023
+Interviewer - Ashwani Kumar
+
+1.	Java 8 features
+2.	Why new features introduced 
+3.	What is the best feature introduced in java 8
+4.	HashMap internal implementation. Why did they remove linkedlist and introduce tree      in the hashtable?
+5.	When we use Interface and when we use Abstract class
+6.	Interface support multiple inheritance why class does not support
+7.	Ok we can implement two interface why we cannot extend 2 classes
+8.	Why default method has been introduced
+9.	If we are having a default method and interface that can do the work of a functional interface then why is it introduced?
+10.	Int []arr ={1,2,2,-1,3,4,-7,8,4,7}, find two element that have sum=0, reduce the time complexity
+11.	Difference between design principle and design pattern.
+12.	Which design principle you have followed in your project and design pattern.
+13.	Why is Array different from arraylist? How ArrayList list grow dynamically internally
+14.	Your roles and responsibility in the project technology wise like which tech you have used where?
+15.	How to process the List inside List data in stream.
+16.	What is the need of an immutable class? And how to  create it.
+17.	When do we use Comparable and when do we use Comparator? How does the comparator sort data internally?
+18.	You have given a list of employees and their department. You need to find the employee of a distinct department using the java8 feature.
+
+
+
+
+Sumer Chandurkar - L2 - 26/05/2023
+Interviewer : saurabh khandelwal
+Introduction,Experience and Tech Stack.
+About Recent Project Overview.
+When you have a situation where two microservices, A and B, are dependent on each other and B goes down, and you need to rollback data in the database. How will you do? - (Ans: VCS of database, Saga Pattern and Central coordinator, Circuit breaker)
+How you manage the database in Microservices? (Ans - Normalisation of databases can be done via read write capacity, Clickhouse, DRUID, time series database and Hive, Big query like databases can be used according to usecase, (Loose coupling is always good choice anyways. For scaling))
+Have you deployed microservice on aws platform? Explain the steps. (Ans- ​​ECR, Docker context, Beanstalk, Target, EKS, Cloud formation, sam CLI, cloud formation templates for AWS)
+What is Transaction Management? (Ans - In order to obtain the applicable objectives of modern security concepts like CIA and should follow ACID properties)
+Why string is immutable in Java? How we can make it mutable ? which methods we can use to modify String? (Ans- StringBuilder is a mutable class specifically designed for efficient string manipulation.)
+String originalString = "Hello";
+StringBuilder stringBuilder = new StringBuilder(originalString);
+stringBuilder.append(", World!"); // Append to the end
+stringBuilder.insert(5, " there"); // Insert at position 5
+stringBuilder.replace(7, 12, "GPT-3"); // Replace portion of the string
+String modifiedString = stringBuilder.toString();
+System.out.println(modifiedString); // Output: Hello there, GPT-3!
+What exactly mean by thread safety? (Ans- where multiple threads execute concurrently, thread safety is crucial to avoid data corruption,  to avoid race condition)
+On which design pattern you have worked? How many you know?
+Steps to convert a program in Singleton.
+How you can a break a logic of singleton class? How will you resolve that?
+ Explain with scenario (9th question)
+ How we can access the private constructor of the singleton class?
+Explain Serialization and deserialization.
+How you have handled exceptions in your project?
+When you create custom exception , is it necessary to use try catch block in it? 
+When to use simply throws and when to use try catch blocks?
+Explain AWS EC2 and S3 concept.
+I/p - [3,1,5,4,8,6,8,3,2]  
+O/p - [5,1,3,6,8,4,2,3,8]  Write the code in java and tell the time complexity.
+Write the sql query for second Highest Salary without using limit offset top orderby.
+ Tell some incident in which you solved some toughest problem and you got appreciated.
+ Also tell me some phase of your life where you faced disappointment and failure and how you overcame those challenges.
+
+
+Aman Prajapati - L1 - 02-06-2023
+Interviewer - Akshata
+Java 8,
+AWS - SQS, SNS, Lambda
+Default method in interface
+Stream api to filter even numbers
+Custom exception
+Find third highest salary using sql
+
+
+Moiz Husain Bohra  L1 - 02/06/2023
+(Interviewer - Ankesh Mishra)
+
+1. Java 8 features you have used in your project
+2. Stream API Intermediate and terminal operation
+3. Default method use case and why it was introduce
+4. What is Defender ?
+5. Collections used in your project
+6. HashMap internal working
+7. When to use linkedList over a arrayList
+8. When you are having a 1000 element data, which collection you should prefer ?
+9. What is HLD and LLD ?
+10.Name the design pattern you have used in LLD
+11.Adapter design pattern
+12.Creation, Structural and Behaviour design pattern
+13.Working of GC
+14. Minor GC and Major GC
+15. Heap compactability
+
+
+
+
+
+Mahesh kariya - L1 - 1/06/2023 
+Interviewer - Akshata
+
+Tell me about yourself your work experience and different work skills you have
+What is the use of lambda and dynamoDB in AWS
+Why we write test cases (Use case of test cases)
+She gave me scenario and asked me to sho me which design pattern you will used.
+Classes (A,B,C,D,E) are three methods
+Student model with fields name, type
+Method C will be called then D will get called
+A and B are common for school and collage 
+E Should be for school 
+Which design principle you are familiar with (Abstract design pattern)
+Where you have used singleton design pattern
+Why we use Singleton in DB connection.
+
+
+
+Mahesh kariya - L2 - 02/06/2023
+
+Introduction
+Explain your project and details
+Questions based on the projects with entire flow and your work on the top of it
+If payment got failed in between, and you don’t want users to pay again (he wants solutions from business point of views)
+ What was the complex problem that you have solved?
+How to manage transaction of payment into micro services 
+ what work you did there? Are you working as a team lead or team of module? 
+Then he explained that he’s looking for candidates who can directly communicate with the client and provide the solution not just coding
+ Then he explained he want some one who can for now lead module as solution engineer
+
+
+Moiz Husain Bohra - L2 - 07/06/23
+Interviewer : Saurabh khandelwal
+Introduction,Experience and Tech Stack.
+About Recent Project Overview.
+When you have a situation where two microservices, A and B, are dependent on each other and B goes down, and you need to rollback data in the database.How will you do? 
+How to do rollback with manual intervention in microservice?
+Ex : 2c phase commit, Soft commit in mysql
+I/p - [3,1,5,4,8,6,8,3,2]  
+O/p - [5,1,3,6,8,4,2,3,8]  Write the code in java and tell the time complexity.
+Write the sql query for second Highest Salary without using limit offset top orderby
+
+
+
+Mahesh kariya - L3 - 13/06/2023
+
+Introduction
+Explain your project and details
+Design patterns you worked upon
+Are you good with backend only or interested in other technologies as well 
+Which AWS Services you have worked with (He mentioned that they are mostly working on lambda)
+How to trigger email in exception of AWS lambda ? (Via SQS, SNS)
+
+Ankita Acharekar - L1 -  (16/03/23)
+
+Introduction & recent project details
+Java 8 features
+Java program to find even numbers from a list using streams
+Use of : : operator
+What is method reference?
+What is return type of forEach()
+ci/cd pipelines
+Use of docker , how we deploy
+Docker commands - versions , copy file
+Kubernetes
+Difference between junit and mockito
+What is API Gateway?
+What are Lambda functions?
+What is dynamodb?
+Difference between dynamodb vs postgresql
+AWS S3 Bucket
+Design patterns - Singleton design pattern
+Which one of the following lines of code are correct & scenario based questions on the same.
+
+Ayush Srivastava  L-1 02-06-23
+
+Introduction
+What is Agile Methodology?
+Explain the internal working of HashMap?
+Difference between Default and Static method in Interface?
+Write a Singleton Class
+Difference between HashMap and HasTable
+
+Ayush Srivastava    L- 2 05-06-23
+
+Write a program to implement a LinkedList with below functions
+
+Insert(data, index)
+delete(data)
+isPresent(data)
+
+
+
+
