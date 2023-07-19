@@ -1,0 +1,18 @@
+Service registery - 
+	we register all our microservice here.With help of this we can call our microservice directly through its name not from ip, Same like ingress from kubernetes ! . It track all information of register services eg. Eureka server (netflix develope).
+	Need eureka client and cloud bootstrap dependencies in our services in order to register service with service registery.
+	
+@LoadBalanced annotation is used to manage the load and also is used to create a bean of resttemplate which can call any service irrespective if theire host and port number.It removes that dependency from code.
+
+Fiegn client is used for declarative programming
+
+API Gateway - Routes request to multiple microservices.imagine if we have n number of microservices then it is not possible to remember theire host name and port of each thats where api gateway comes into picture.Every request goes thr it.
+
+Config server - it fetch properties from git. need to implement config client in our project which fetch properties from config server.
+
+Fault tolerance - if one service is down and we are calling that service then we need to define how many times only we need to call and in that if it is failing continuously then we should stop calling that service and after some time try again.
+Circuit breaker -
+@Retry - try for n number of times if request is not getting successfull 
+Rate limiter - this functionality allows limiting access to some service, increase its scalability and availability
+
+OKTA - third party service use to do authentication and authorization
