@@ -1,0 +1,85 @@
+To set PATH - 
+
+	export PATH="$PATH:/path/to/dir"
+	source ~/.profile 
+	
+	
+	
+Open intellije idea - ./idea.sh
+
+Mongodb - 
+		
+			to start the server - sudo systemctl start mongod
+			check status - sudo service mongod status
+			to start session - mongo
+			to stop - sudo service mongod stop
+			
+
+AWS ssh - 
+			
+			ssh -i "name_shriraj.pem" ubuntu@ec2-18-206-58-17.compute-1.amazonaws.com
+	
+	
+Jenkins - 
+
+		sudo systemctl enable jenkins
+		sudo systemctl start jenkins
+		sudo systemctl status jenkins
+		
+ ps ax |grep java - to check java processes
+ sudo tail -f /proc/PID/fd/1 - to see process logs
+
+Mysql - 
+
+		mysql -u root -p
+		mysql -u newuser -p
+		
+Xamp start - sudo /opt/lampp/./manager-linux-x64.run
+						sudo /opt/lampp/lampp stop
+						sudo /opt/lampp/lampp start
+
+
+mvn install -DskipTests.
+
+Activate virtual env - source my_env_project/bin/activate
+Deactivate env - deactivate
+
+Redis server - 
+			Start - sudo systemctl restart redis.service
+			check status -sudo systemctl status redis
+			sudo redis-cli
+			disable - sudo systemctl disable redis
+			
+Maria db - 
+			Start - sudo systemctl status mariadb
+			Create container - sudo docker pull mariadb:10.5
+			Create mariadb container - docker run --name mariadbtest -v /my/own/datadir:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=password -p 127.0.0.1:3308:3308  -d docker.io/library/mariadb:10.5 
+			
+			sudo docker run --name mariadb -v /my/own/datadir:/var/lib/mysq -e MYSQL_ROOT_PASSWORD=123 -p  127.0.0.1:3340:3306  -d docker.io/library/mariadb:10.5
+			
+			mysql -uroot -p123 -h 127.0.0.1 -P3340
+			
+			
+			
+
+Python - 
+
+		to activate source - source /home/deq/my_env_project/bin/activate
+		to deactivate venv - deactivate
+
+SSH into azure cluster 
+
+kubectl exec -it <pod name> bash
+
+sudo netstat -lpn |grep :8080
+kill -9 6782
+ps -ef|grep tomcat
+
+
+sudo systemctl start docker
+
+docker ps -a 	- list all containers
+docker images  - list images
+docker rmi imgName 	- to remove images
+docker pull	- to pull the image
+docker inspect blissful_hopper	- to inspect containers vm args
