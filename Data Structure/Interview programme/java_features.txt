@@ -1,0 +1,93 @@
+
+Java 9 version : 
+
+Java 9 REPL (JShell)
+
+Factory Methods for Immutable List, Set, Map and Map.Entry
+	in java 8 we were doing it by Collections.unmodifiableList now we have List.of(), Map.of()
+
+Private methods in Interfaces - to avoid redundent code
+
+Process API Improvements - introduced two new interfaces 
+
+Try With Resources Improvement - improve some Readability
+
+Reactive Streams - Java SE 9 Reactive Streams API is a Publish/Subscribe Framework to implement Asynchronous, Scalable and Parallel applications very easily using Java language.
+
+Diamond Operator for Anonymous Inner Class - in java 8 was problem with anonymous inner class
+
+Stream API Improvements - takeWhile() and dropWhile()
+
+HTTP 2 Client - http 1 was not supporting http/2 protocol and also had lot of performance issues
+
+
+Java 10 : 
+
+Var can be used instead of other data types
+
+APIs to create Unmodifiable Collections - copyOf()
+Removed some depricated features and options
+
+
+Java 11 : 
+
+Running Java File with single command - can use java command to run files
+
+Java String Methods - isBlank(), strip()  (for white spaces), repeat(int) (repeat string for given number of times)
+
+Local-Variable Syntax for Lambda Parameters
+
+Reading/Writing Strings to and from the Files
+
+HTTP Client- new api supports both HTTP/1.1 and HTTP/2
+
+Nested Based Access Control
+
+
+Spring boot internal working - 
+		
+		Spring does not generate any code automatically and not using any xml configuration file . so spring uses internally pragmatically configuration done by spring boot developer that are provided by jar.
+		we are using just pre-configured jar . and those jar available in:
+
+		META-INF/spring.factories
+		
+		From the run method, the main application context is kicked off which in turn searches for the classes annotated with @Configuration, initializes all the declared beans in those configuration classes, and based upon the scope of those beans, stores those beans in JVM, specifically in a space inside JVM which is known as IOC container. After the creation of all the beans, automatically configures the dispatcher servlet and registers the default handler mappings, messageConverts, and all other basic things.
+		
+		
+Exception handlig in spring boot - 	
+@ExceptionHandler - over method to handle particular exception
+@ControllerAdivce informs Spring Boot that a class will act like an Interceptor in case of any exceptions.
+
+
+Asynchronous operation - 
+		
+@EnableAsync - over a class which creats a thread pool
+need to create a thread pool using ThreadPoolTaskExecutor
+
+@Async - to execute method asynchronously 
+
+Major/Minor GC -  The task of Major GC is as same as the minor GC, but the only difference is minor GC reclaims the memory of the young generation whereas major GC reclaims the memory of the old generation. It is also said that many major GCs are triggered by minor GCs.
+
+ForkJoinPool. commonPool() use in case of parallel stream.
+
+Design Patterns vs Design Principles -
+
+Design Principles are general guidelines that can guide your class structure and relationships. On the other hand, Design Patterns are proven solutions that solve commonly reoccurring problems.
+Design Principles examples are SOLID,DRY principle
+
+ArrayList size is 0 in java 8 after that it becomes to 10
+
+An immutable class is good for caching purposes because you don't have to worry about the value changes. An immutable class is inherently thread-safe, so you don't have to worry about thread safety in multi-threaded environments
+
+salary question in sql - 
+
+select * from(
+select emp_name, emp_salary, dense_rank() 
+over(order by emp_salary desc)r from Emp) 
+where r=3;
+
+Concurrency v/s parallelism in multithreading -
+
+Concurrency - Concurrency relates to an application that is processing more than one task at the same time with the help of context switching.
+
+parallelism - Dividing task into smaller task so that they can be processed parallely or simultaneously.
